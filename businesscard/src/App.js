@@ -1,11 +1,13 @@
-import { HeaderPhoto } from "./components";
+import { HeaderPhoto, MyName } from "./components";
+import "./App.css";
 
 function App() {
   return (
     <div className="main">
-        <div className="business-card">
+      <div className="business-card">
         <HeaderPhoto />
-        </div>
+        <MyName />
+      </div>
     </div>
   );
 }

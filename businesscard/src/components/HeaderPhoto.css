@@ -1,0 +1,12 @@
+.header-profile {
+  object-fit: contain;
+  border-radius: 10px 10px 0px 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.picture-container {
+  height: 317px;
+  width: 317px;
+  display: block;
+}

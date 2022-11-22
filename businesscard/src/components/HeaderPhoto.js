@@ -1,6 +1,12 @@
 import profilePic from "../Images/profilePic.jpg";
+import "./HeaderPhoto.css";
+
 function HeaderPhoto() {
-  return <img className="header-profile" src={profilePic} />;
+  return (
+    <div className="picture-container">
+      <img className="header-profile" src={profilePic} />
+    </div>
+  );
 }
 
 export default HeaderPhoto;
