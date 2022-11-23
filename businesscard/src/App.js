@@ -6,9 +6,11 @@ function App() {
     <div className="main">
       <div className="business-card">
         <HeaderPhoto />
-        <MyName />
-        <Buttons />
-        <Details />
+        <div className="contents">
+          <MyName />
+          <Buttons />
+          <Details />
+        </div>
         <Footer />
       </div>
     </div>
