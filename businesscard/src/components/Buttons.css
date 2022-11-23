@@ -1,0 +1,19 @@
+.btn-container {
+  padding-top: 15px;
+  width: 78%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  border: none;
+}
+
+.btn--linkedin {
+  background-color: #5093e2;
+  color: white;
+}

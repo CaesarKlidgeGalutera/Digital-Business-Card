@@ -1,0 +1,21 @@
+.details-container {
+  padding: 25px 32px;
+}
+
+.details {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.details_P {
+  color: white;
+  font-size: 10.24px;
+  font-weight: 400;
+  padding-top: 5px;
+  line-height: 15.36px;
+}
+
+.details__title2 {
+  padding-top: 20px;
+}

@@ -1,4 +1,4 @@
-import { HeaderPhoto, MyName } from "./components";
+import { HeaderPhoto, MyName, Buttons, Details, Footer } from "./components";
 import "./App.css";
 
 function App() {
@@ -7,6 +7,9 @@ function App() {
       <div className="business-card">
         <HeaderPhoto />
         <MyName />
+        <Buttons />
+        <Details />
+        <Footer />
       </div>
     </div>
   );
